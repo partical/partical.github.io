@@ -84,15 +84,25 @@
 
 
 
-<meta name="description" content="G.p�ĸ��˲���">
-<meta property="og:type" content="website">
-<meta property="og:title" content="G.p">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="环境需求nodejs git github hexo ...
+安装nodejs到nodejs的官网下载相应的安装包，一路安装即可。
+安装git到git的官网下载git。
+github申请一个github帐号，并且新建一个youName.github.io的project,比如我的就是partical.github.io,这个是github提供的一个个人免费站点，有300M大小的空间。设置git的s">
+<meta property="og:type" content="article">
+<meta property="og:title" content="使用hexo搭建个人博客">
+<meta property="og:url" content="http://yoursite.com/使用hexo搭建个人博客/index.html">
 <meta property="og:site_name" content="G.p">
-<meta property="og:description" content="G.p�ĸ��˲���">
+<meta property="og:description" content="环境需求nodejs git github hexo ...
+安装nodejs到nodejs的官网下载相应的安装包，一路安装即可。
+安装git到git的官网下载git。
+github申请一个github帐号，并且新建一个youName.github.io的project,比如我的就是partical.github.io,这个是github提供的一个个人免费站点，有300M大小的空间。设置git的s">
+<meta property="og:updated_time" content="2016-07-24T09:35:10.633Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="G.p">
-<meta name="twitter:description" content="G.p�ĸ��˲���">
+<meta name="twitter:title" content="使用hexo搭建个人博客">
+<meta name="twitter:description" content="环境需求nodejs git github hexo ...
+安装nodejs到nodejs的官网下载相应的安装包，一路安装即可。
+安装git到git的官网下载git。
+github申请一个github帐号，并且新建一个youName.github.io的project,比如我的就是partical.github.io,这个是github提供的一个个人免费站点，有300M大小的空间。设置git的s">
 
 
 
@@ -113,9 +123,9 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/使用hexo搭建个人博客/"/>
 
-  <title> G.p </title>
+  <title> 使用hexo搭建个人博客 | G.p </title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="">
@@ -136,9 +146,7 @@
     
   
 
-  <div class="container one-collumn sidebar-position-left 
-   page-home 
- ">
+  <div class="container one-collumn sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -215,9 +223,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
   
@@ -237,169 +245,7 @@
             
             
               
-                
-                <a class="post-title-link" href="/使用jsHint规范代码/" itemprop="url">
-                  使用jsHint规范代码
-                </a>
-              
-            
-          </h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            <span class="post-meta-item-icon">
-              <i class="fa fa-calendar-o"></i>
-            </span>
-            <span class="post-meta-item-text">Veröffentlicht am</span>
-            <time itemprop="dateCreated" datetime="2016-08-03T22:04:22+08:00" content="2016-08-03">
-              2016-08-03
-            </time>
-          </span>
-
-          
-            <span class="post-category" >
-              &nbsp; | &nbsp;
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              <span class="post-meta-item-text">in</span>
-              
-                <span itemprop="about" itemscope itemtype="https://schema.org/Thing">
-                  <a href="/categories/工作/" itemprop="url" rel="index">
-                    <span itemprop="name">工作</span>
-                  </a>
-                </span>
-
-                
-                
-
-              
-            </span>
-          
-
-          
-            
-          
-
-          
-
-          
-          
-
-          
-        </div>
-      </header>
-    
-
-
-    <div class="post-body" itemprop="articleBody">
-
-      
-      
-
-      
-        
-          
-            <h1 id="使用jsHint规范js代码"><a href="#使用jsHint规范js代码" class="headerlink" title="使用jsHint规范js代码"></a>使用jsHint规范js代码</h1><pre><code>工作中主要使用eclipse来进行java Web开发,js的代码检测使用jshint来进行，这里主要写写jshint 的配置项。
-***
-`
-{
-&quot;indent&quot; : 4,// 使用4个空格来缩进
-&quot;camelcase&quot; : true, // 变量名必须使用驼峰写法或者大写
-&quot;latedef&quot; : &quot;nofunc&quot;, //函数定义可以在使用之后
-&quot;newcap&quot; : true,// new 之后的首字母必须大写
-&quot;curly&quot; : true,//语句块必须使用大括号，不能写成单行
-&quot;eqeqeq&quot; : false,//判断相等的时候不强制使用===
-&quot;eqnull&quot; : true,//判断为null的时候可以使用 ==
-&quot;strict&quot; : false,//不进入严格模式
-&quot;undef&quot; : true,//使用的变量未定义
-&quot;unused&quot; : true,//定义的变量未使用
-&quot;laxcomma&quot; : true,//逗号写在行末，而不是行首
-&quot;asi&quot; : false, //不使用js自动补全机制
-&quot;boss&quot; : false, //条件判断中不允许直接赋值
-&quot;expr&quot; : true,//表达式可以直接运行
-&quot;sub&quot; : true, //对象访问支持点号和中括号
-&quot;quotmark&quot; : &quot;single&quot;, // 使用单引号, true ： 表示引号互相匹配即可，double: 使用双引号
-&quot;loopfunc&quot; : false, // 在循环中不定义函数
-&quot;lastsemic&quot; : false, //单行不省略语句的分号
-&quot;funcscope&quot; : false, //将非函数块也当作块来处理
-&quot;esnext&quot; : false, //不支持支持es6
-&quot;noyield&quot; : true, // 不支持es6的使用
-&quot;validthis&quot; : false, //function里面不使用this
-&quot;freeze&quot; : true, //对native objects 的原型增加方法会提示错误
-&quot;forin&quot; : false, //对for in 使用不要求必须检测key是否是object自身的属性(obj.hasOwnProperty(key))
-&quot;immed&quot; : true, //立即执行的函数需要使用括号包裹
-&quot;noarg&quot; : true,// 禁止使用arguments.caller 和 arguments.callee
-&quot;trailing&quot; : true, //禁止代码末尾出现空行
-&quot;maxdepth&quot; : 3, //函数的最大嵌套层数
-&quot;maxparams&quot; : 5, //函数参数的最大个数
-&quot;maxstatements&quot; : 20, //函数的最大语句个数，内部函数声明只当作一条语句
-&quot;debug&quot; : false, //代码中有debugger会给出警告
-&quot;evil&quot; : false, // 不允许代码中出现eval
-&quot;laxbreak&quot; : false, //不安全的换行会给出警告
-&quot;browser&quot; : true, //可以使用浏览器的全局变量，比如document
-&quot;devel&quot; : true ,// 可以使用调试的全局变量，比如alert console
-&quot;jquery&quot;: true, //可以使用jquery的全局变量
-&quot;predef&quot;: [ &quot;sz&quot; ], //全局变量
-&quot;globals&quot; : {
-    &quot;define&quot; : false //全局的变量只读
-}
-</code></pre><p>}<br>    `</p>
-<pre><code>***
-以上注释的意思都是配置项生效的意思。详情可以参考[这里](http://jshint.com/docs/options/#options), 汉化参考[这里](https://github.com/mytcer/jshint-docs-cn/blob/master/enforcing_options.md)。
-</code></pre>
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-            
-            
-              
-                
-                <a class="post-title-link" href="/使用hexo搭建个人博客/" itemprop="url">
-                  使用hexo搭建个人博客
-                </a>
+                使用hexo搭建个人博客
               
             
           </h1>
@@ -439,9 +285,7 @@
       
 
       
-        
-          
-            <h2 id="环境需求"><a href="#环境需求" class="headerlink" title="环境需求"></a>环境需求</h2><pre><code>nodejs git github hexo ...
+        <h2 id="环境需求"><a href="#环境需求" class="headerlink" title="环境需求"></a>环境需求</h2><pre><code>nodejs git github hexo ...
 </code></pre><h2 id="安装nodejs"><a href="#安装nodejs" class="headerlink" title="安装nodejs"></a>安装nodejs</h2><p>到nodejs的<a href="nodejs.org">官网</a>下载相应的安装包，一路安装即可。</p>
 <h2 id="安装git"><a href="#安装git" class="headerlink" title="安装git"></a>安装git</h2><p>到git的<a href="https://git-scm.com" target="_blank" rel="external">官网</a>下载git。</p>
 <h2 id="github"><a href="#github" class="headerlink" title="github"></a>github</h2><p>申请一个github帐号，并且新建一个youName.github.io的project,比如我的就是partical.github.io,这个是github提供的一个个人免费站点，有300M大小的空间。<br>设置git的ssh key 与github的个人帐号关联，具体可以google.</p>
@@ -459,16 +303,20 @@ branch : master</code></li>
 <li>发布到github上<br>  <code>hexo deploy</code><br>  发布成功之后就可以通过浏览器访问了。比如我的：<a href="http://partical.github.io" target="_blank" rel="external">http://partical.github.io</a></li>
 </ul>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
@@ -476,19 +324,32 @@ branch : master</code></li>
       
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+          </div>
+
+          <div class="post-nav-prev post-nav-item">
+            
+              <a href="/使用jsHint规范代码/" rel="prev" title="使用jsHint规范代码">
+                使用jsHint规范代码 <i class="fa fa-chevron-right"></i>
+              </a>
+            
+          </div>
+        </div>
+      
 
       
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -496,6 +357,10 @@ branch : master</code></li>
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -515,8 +380,17 @@ branch : master</code></li>
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            Inhaltsverzeichnis
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            Übersicht
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel  sidebar-panel-active ">
+      <section class="site-overview sidebar-panel ">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="/source/images/icon.png"
@@ -566,6 +440,17 @@ branch : master</code></li>
 
       </section>
 
+      
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+            
+              
+            
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-2"><a class="nav-link" href="#环境需求"><span class="nav-number">1.</span> <span class="nav-text">环境需求</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装nodejs"><span class="nav-number">2.</span> <span class="nav-text">安装nodejs</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装git"><span class="nav-number">3.</span> <span class="nav-text">安装git</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#github"><span class="nav-number">4.</span> <span class="nav-text">github</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#安装hexo"><span class="nav-number">5.</span> <span class="nav-text">安装hexo</span></a></li></ol></div>
+            
+          </div>
+        </section>
       
 
     </div>
@@ -662,6 +547,10 @@ branch : master</code></li>
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.0.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.0.1"></script>
+
+
 
   
 
